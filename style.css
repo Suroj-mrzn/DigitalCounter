@@ -1,0 +1,50 @@
+h1{
+    background-color: blue;
+    display: block;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+body{
+    background-color: rgb(27, 26, 100);
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+p{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(27, 26, 100); 
+    color: white;
+    padding: 20px;
+margin: 20px;
+}
+#counter{
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.buttons{
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1em;
+    cursor: pointer;
+    color: rgba(219, 218, 228, 0.679);
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(43, 42, 133);
+    color: white;
+    transition: 0.3s;
+}
