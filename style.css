@@ -28,7 +28,10 @@ margin: 20px;
     color: white;
 }
 .buttons{
-    display: block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
     text-align: center;
     font-size: 2em;
     font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
